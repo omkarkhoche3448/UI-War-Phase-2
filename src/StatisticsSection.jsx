@@ -16,9 +16,9 @@ const StatisticsSection = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold text-white text-center mb-4"
         >
-          Our <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Statistics.</span>
+          Our <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent ">Statistics.</span>
         </motion.h1>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (

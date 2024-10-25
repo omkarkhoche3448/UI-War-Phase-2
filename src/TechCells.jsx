@@ -41,7 +41,7 @@ const TechCells = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-900 p-8 flex items-center justify">
+    <div className=" bg-gray-900 p-8 flex items-center justify-center min-h-[800px]">
       <div className="max-w-7xl mx-auto">
         <motion.h1 
           initial={{ opacity: 0, y: -20 }}
