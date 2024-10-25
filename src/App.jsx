@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HeroSection from './HeroSection';
 import Navbar from "./Navbar";
 import TechCells from "./TechCells";

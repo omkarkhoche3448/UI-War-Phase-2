@@ -95,6 +95,14 @@ const NavLink = ({ href, children, className }) => {
   );
 };
 
+import PropTypes from 'prop-types';
+
+NavLink.propTypes = {
+  href: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+};
+
 const MobileNavLink = ({ href, onClick, children }) => {
   return (
     <a
@@ -105,6 +113,12 @@ const MobileNavLink = ({ href, onClick, children }) => {
       {children}
     </a>
   );
+};
+
+MobileNavLink.propTypes = {
+  href: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Navbar;
